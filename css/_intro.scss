@@ -1,0 +1,44 @@
+section.intro-fluid{
+    div.info{
+        margin-top: 3rem;
+        height: 33rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-family: 'Raleway', sans-serif;
+        h2{
+           margin-bottom: 0;
+            font-size: 5rem;
+                font-weight: 300;
+                
+        }
+        p{
+            font-size: 2rem;
+                font-weight: 200;
+                text-align: center
+        }
+        div.przycisk{
+            >a { 
+                margin-right: calc(50vw - 10rem);
+                margin-bottom: 5rem;
+                display: inline-block;
+                width: 20rem;
+                height: 6rem;
+                background-color:#00FFA3;
+                text-decoration: none;
+                color: #239C71;
+                box-shadow: 0px 0px 26px 2px rgba(115,109,115,0.46);
+                >span {
+                    
+                    font-weight: bold;
+                    line-height: 6rem;
+                    font-size: 1.4rem;
+                    display: block;
+                    text-align: center;
+                    
+                }
+        }
+    }
+}
+}

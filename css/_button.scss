@@ -1,0 +1,28 @@
+div.button {
+    >a {
+        display: inline-block;
+        width: 36rem;
+        height: 10rem;
+        background-color: aliceblue;
+        text-decoration: none;
+        color: #000;
+        overflow: hidden;
+
+        >span {
+            // zrobic to na flexie w domu zamiast lineheight
+            line-height: 10rem;
+            font-size: 3rem;
+            display: block;
+            text-align: center;
+            transition: 0.3s linear; 
+        }
+
+    }
+    >a:hover span {
+        transform: translateY(-10rem);
+        
+        
+    }
+}
+
+

@@ -1,0 +1,50 @@
+header.header-top-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+    height: calc(100vh - 6rem);
+    background-image: linear-gradient(to right, #3dcdbc, #2ac3c0, #20b8c2, #26acc1, #33a1bd);
+
+    .container{
+        display: flex;
+        
+        
+        div:nth-child(1){
+            
+        }
+        div:nth-child(2){
+            padding-left: 4rem;
+            color: #ffffff;
+            font-family: 'Raleway', sans-serif;
+
+            h2{
+                margin: 0 0 2rem 0;
+                
+                font-size: 6rem;
+                font-weight: 200;
+            }
+            p{
+                margin:6rem 2rem 2rem 0;
+                font-size: 2.1rem;
+                font-weight: 400;
+            }
+            div{
+                
+                a{  font-weight: 400;
+                     display: inline-block;
+                    background-color: #fff;
+                height: 5rem;
+                width: 15rem;
+                text-decoration: none;
+             color: #26acc1;
+             font-size: 1.1rem;
+             text-align: center;
+             line-height: 5rem;
+
+                }
+
+            }
+        }
+    }
+}
